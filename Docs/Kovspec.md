@@ -75,3 +75,25 @@ A feladatokat pedig a táblák között kurzor segítségével mozgathatóra, va
 
 9\.  Fogalomtár
 ===============
+
+HTML: A HTML (angolul: HyperText Markup Language=hiperszöveges jelölőnyelv) egy leíró nyelv, melyet weboldalak készítéséhez fejlesztettek ki, és mára már internetes szabvánnyá vált a W3C (World Wide Web Consortium) támogatásával.
+
+Forrás: https://hu.wikipedia.org/wiki/HTML
+
+A CSS (Cascading Style Sheets, magyarul: lépcsőzetes stíluslapok) a számítástechnikában egy stílusleíró nyelv, mely a HTML vagy XHTML típusú strukturált dokumentumok megjelenését írja le. Ezenkívül használható bármilyen XML alapú dokumentum stílusának leírására is, mint például az SVG, XUL stb.
+
+A CSS specifikációját a World Wide Web Consortium felügyeli.
+
+Forrás: https://hu.wikipedia.org/wiki/Cascading_Style_Sheets
+
+A JavaScript programozási nyelv egy objektumorientált, prototípus-alapú szkriptnyelv, amelyet weboldalakon elterjedten használnak.
+
+Forrás: https://hu.wikipedia.org/wiki/JavaScript
+
+Cross-Platform: A platformfüggetlenség vagy többplatformosság, illetve multi-platform fogalma olyan számítógépes programokra, operációs rendszerekre, programozási nyelvekre vagy más számítógépes szoftverekre és implementációikra vonatkozik, amelyek több számítógépes platformon képesek működni.
+
+Forrás: https://hu.wikipedia.org/wiki/Platformf%C3%BCggetlens%C3%A9g
+
+Reszponzív weboldal: A reszponzív weboldal (RWD) egy olyan megközelítéssel tervezett weboldal, amelynek a célja az, hogy optimális megjelenést biztosítson - könnyű olvashatóság, egyszerű navigáció a lehető legkevesebb átméretezéssel és görgetéssel - a legkülönfélébb eszközökön.
+
+Forrás: https://hu.wikipedia.org/wiki/Reszponz%C3%ADv_weboldal
