@@ -1,6 +1,23 @@
 1\. Áttekintés
 ==============
-   
+Az internet és az okostelefonok elterjedésével felgyorsult az emberek élete. Az emberek a mindennapi feladataikat egyre nehezebben tudják számon tartani.
+
+Nagyon sokan a mai napig papiron vezetik a teendőiket, de ez a fajta megközelités mára már elavult, hiszen van gyorsabb és kényelmesebb megoldás.
+
+Alkalmazásunk célja, hogy megkönnyitsük az emberek életét azáltal, hogy létrehozunk egy olyan alkalmazást, amivel könnyedén és kényelmesen tudják teendőiket rendszerezni.
+
+Az alkalmazáson belül képesek leszünk teendóket módositani, illetve ha egy teendőt mégse szeretnénk megcsinálni, akkor törölhetjük azt.
+
+Ha végeztünk az egyik feladatunkkal akkor kipipálhatjuk, hogy kész van.
+
+Egy legördülő lista segítségével képesek leszünk szűrni a teljesített, illetve a még nem teljesített feladatokra.
+
+Ezt a feladatot a következő emberek végzik el:
+
+Balázs Bence
+Hernádi Mihály
+Osztós Zsombor
+Szilágyi Mihály
 
 
 2\. Jelenlegi helyzet
