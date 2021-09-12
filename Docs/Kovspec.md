@@ -5,7 +5,10 @@
 
 2\. Jelenlegi helyzet
 =====================
-   
+Mai rohanó világunkban szinte mindenkivel előfordult már, hogy valamilyen fontos teendőt elfelejtett véghez vinni, fejben tartani, vagy szimplán a megfelelő feladat helyett egy másikat részesített előnyben, ezzel zavart okozva napirendjében, terveiben. Valamilyen teendőinket tartalmazó, úgynevezett "To do" listára mindenkinek szüksége van. 
+Manapság rengetegen még mindig papír alapú listákat használnak, ami mára elavultnak, kényelmetlennek számít, valamint a környezetre való tekintettel sem a legjobb opció. 
+Az mobilokon található listázó applikációk nagy része fizetős, amit nem mindenki tud megengedni magának. A modern kor embere nagyban különbözik a XX. századi embertől, sokkal nagyobb a rohanás és egyre sűrűbbek a napjai, **lépést kell tartania**. **Az okostelefonjainkra, laptopjainkra és a webre nem csak szórakoztató eszközként, hanem egyfajta teendőinket tartalmazó listaként is tekinthetünk**. Ezekre a problémákra hoztuk létre megoldásul ToDo List weboldalunkat.
+
 
 
 3\. Vágyálom rendszer
@@ -31,12 +34,15 @@ A dolgozók közötti munka megfelelő elosztása érdekében legyen lehetőség
 
 6\. Jelenlegi üzleti folyamatok
 ===============================
-   
+Egy listánál a mobilitás fontos szempont, hogy mindig, minden időpontban, minden helyen tudjuk mit kell tennünk, azonban napjainkban még mindig rengetegen használnak papír alapú feljegyzéseket, aminek változtatása és zsebben tartása igen problémás lehet, ezzel szemben a ToDo List oldal használata egyszerűen változtatható, szimplán csak átírjuk a feladatunkat, vagy kicseréljük azt egy másikra, nem beszélve arról, hogy elég egy weboldalon tárolnunk azt.
+Weboldalunk teljesen környezetbarát! A papír alapú listával szemben, a mi listánknál egy fának sem esett bántódása elkészítésekor, valamint egy betelt lista így már nem hagy maga után papírhulladékot.
+A rengeteg drága lista alkalmazás leváltására ez egy teljesen ingyenes projekt, mindössze internet hozzáférésre van szükségünk.
 
    
 7\. Igényelt üzleti folyamatok
 ==============================
-   
+A megrendelő időpontokba és kategóriákba rendezve akarja látni a teendőit, sorrendben, valamint lehetőséget arra, hogy a már nem aktuális, már kész, vagy a még nem biztos teendőket külön táblákba tudja elhelyezni. Mindezen kívül színes, egyben elegáns, de feltűnő hátteret szeretne a tábláknak és könnyű webes elérhetőséget az oldalnak. A táblákat balról jobbra: To do, Pending, Done sorrendben szeretné látni.
+A feladatokat pedig a táblák között kurzor segítségével mozgathatóra, valamint a táblákon belül módosíthatóra (törölhető, szerkeszthető) szeretné.  
 
 
 8\. Követelménylista
