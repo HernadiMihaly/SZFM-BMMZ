@@ -7,7 +7,9 @@ Elképzelésünk szerint nem tervezünk mikrotranzakciókat beleépíteni a szof
 
 2\. Jelenlegi helyzet
 =====================
-   
+A megrendelő szeretné, hogy könnyen, gördülékenyen tudja kezelni mindennapjait, egy megfelelő napirend tervező lista használatával. Ehhez egy interneten keresztül működő weboldalon található teendő listát rendelt meg.
+Weboldalunk **minden látogató igényét kielégíti** azáltal, hogy XXI. századi technológiával a **Hálózaton keresztül működik**, és itt **bárki** feljegyezheti az előtte álló, vagy akár a kész feladatokat, **ingyenes** táblák használatával, teendőikhez időpontokat rendelve, ezzel **lecserélve elődjét: a papírt**. Valamint segíti a **környezetvédő** szervezetek munkáját a papírlapok és műanyag tollak elhagyásával, mindezek mellett nagyszerű fiatalos designt alkalmazva.
+A megrendelő eddig csak papír alapú teendő listát használt, viszont látva a lehetőséget a **környezetbarát**, **gyors** és **egyszerűen hordozható** megoldásra, nálunk keresett számára megfelelő szolgáltatást.
 
 3\. Követelménylista
 ====================
