@@ -38,10 +38,12 @@ A megrendelő, de egyben minden más ember igényeinek kielégítésére, a kön
 7\. Forgatókönyv
 ================
 
+Szereplők: Futási időben 2 szereplő figyelhető meg. Az első szereplő maga a futó alkalmazás (weben/Androidon/iOS-en). Az alkalmazást elindítva megjelenik egy üres kezelőfelület egy oszlopok felvétele gombbal a bal oldalon. Ezután a felhasználó rákattinthat a gombra és elkezdheti az oszlopom felvételét és elnevezését. A felvehető oszlopok számában nem lesz korlátozva a felhasználó. Ezekután a felhasználó elkezdheti a feladatkártyák hozzáadását a már elkészített oszlopokhoz. Miután a kártyák hozzáadásra kerültek azok módosítását is megkezdheti a felhasználó. Adhat hozzá tulajdonságokat, dátumot és időintervallumot. Miután a felhasználó haladást ért el a felvett feladatával tovább mozgathatja egy másik oszlopba.
 
 8\. Funkció - követelmény megfeleltetés
 =======================================
 
+A követelmények azokra felhasználói esetekre lettek felállítva amikor egy felhasználó rendszerezni szeretné valamilyen rendszer szerint a teendőit. Ennek a legegyszerűbb esete amikor a programot használó személy az alapján szeretné rendszerezni teendőit, hogy mit csinált már meg. Ez esetben a felhasználó létre tud hozni 3 oszlopot, ami a feladat állapota szerint van elnevezve. Az első oszlopba be tudja írni a felhasználó, hogy mi az, amit meg szeretne csinálni és azt, hogy mikor. A második oszlopban a felhasználó nyomon tudja követni az éppen folyamatban lévő feladatait és az utolsó oszlopba tudja gyűjteni azokat a dolgokat, amikkel már végzett. A felhasználó hozzá tud írni a feladataihoz tulajdonságokat, amik számára fontosak azzal kapcsolatban. Ugyanígy képes a felhasználó dátumok hozzárendelésére a feladatokhoz, hogy tudja, hogy mikor tervezte az elvégezni és képes időintervallumok hozzárendelésére is hogy lássa azt hogy mi mennyi időbe telt.
    
 9\.  Fogalomszótár
 ===============
