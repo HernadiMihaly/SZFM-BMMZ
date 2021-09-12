@@ -29,7 +29,7 @@ Egy listánál a mobilitás fontos szempont, hogy **mindig, minden időpontban, 
    
 5\. Igényelt üzleti folyamatok
 ==============================
-   
+A megrendelő, de egyben minden más ember igényeinek kielégítésére, a könnyebb kezelhetőség és átláthatóság érdekében, a felvett feladatokhoz el lehet helyezni egy-egy időpontot és egy-egy dátumot is, hogy a lista pontosan követhető legyen. A megrendelő To do, Pending és Done táblákat szeretne látni, ezért mi tetszőlegesen hozzáadható és elnevezhető munkaállapot táblákat/kártyákat tudunk kínálni a weboldalon, hogy bárki könnyedén fel tudja venni a számára megfelelő állapotokat (az előtte álló feladatokhoz mérten). Ezekbe a táblákba tudja felvenni a felhasználó a feladatait, valamint a megfelelő időpontot, dátumot, erre azért van szükség, hogy ezzel teret hagyjunk a felhasználó igényeinek, hogy **saját rendezettséget** tudjon készíteni **a saját listájának**. Ezzel egy csapásra kielégíthető a megrendelőnek azon igénye is, hogy a már nem aktuális, már kész, vagy a még nem biztos teendőket külön táblákba tudja elhelyezni, ha szeretné. A feladatok táblából-táblába mozgathatóak és törölhetőek, átnevezhetőek azokon belül. A színek összeállítása a következő: világosszürke háttér, törtfehér kártyák/táblák, fekete körvonallal, és fekete betűszín, a legelegánsabb, de egyben szemet kímélő árnyalatokat alkalmazva.  
 
 6\. Képernyő terv
 =================
