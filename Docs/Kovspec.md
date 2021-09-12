@@ -41,13 +41,14 @@ A dolgozók közötti munka megfelelő elosztása érdekében legyen lehetőség
 
 4\. Funkcionális követelmények
 ==============================
-   
+ 
+A kezelő felületnek jól átláthatónak, letisztultnak és esztétikusnak kell lennie. Itt kell, hogy megjelenjenek A felhasználó által már felvett munkaállapotok és egy gomb a további oszlopok felvételére. Az oszloponak esztétikus kinézete kell, hogy legyen és jól el kell különülniük egymástól. Az oszlopokat a felhasználónak kell elnevezni a létrehozáskor, amit később módosíthat. Ezeken az oszlopokon belül a felhasználónak lehetősége kell, hogy legyen feladatok felvételére és a felvett feladatokhoz tulajdonságok rögzítésére. A felhasználónak szintén képesnek kell lenni dátum és időintervallum hozzárendelésére az egyes feladatokhoz. Mindazonáltal a felhasználónak lehetősége kell, hogy legyen a felvett feladatok elnevezésére, átnevezésre és törlésére az oszlopokból.
 
 
 5\. Rendszerre vonatkozó törvények, szabványok, ajánlások
 ======================
    
-
+A weboldalnak meg kell felelnie minden hatályos jogszabálynak, szabványnak és ajánlásnak. Az egyik legfontosabb ilyen irányelv az adatvédelem, aminek meg kell felelnie az éppen hatájos GDPR jogszabálynak. Hasonlóan fontos terület a személyes adatok gyűjtésére vonatkozó jogszabályok. Ezen a területen a programnak meg kell felelnie a”2011. évi CXII. törvény az információs önrendelkezési jogról és az információszabadságról” -ban leírtaknak. Mindazonáltal a programnak meg kell felelnie a fogyatékkal élők érdekében hozott hozzáférhetőségi szabályozásoknak.
 
 6\. Jelenlegi üzleti folyamatok
 ===============================
