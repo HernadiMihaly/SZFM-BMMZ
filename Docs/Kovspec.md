@@ -1,12 +1,15 @@
-1. Áttekintés
+1\. Áttekintés
+==============
    
 
 
-2. Jelenlegi helyzet
+2\. Jelenlegi helyzet
+=====================
    
 
 
-3. Vágyálom rendszer
+3\. Vágyálom rendszer
+=====================
 
 Az elkészítendő rendszer célja a munkát végző személyek időbeosztásának megkönnyítése, valamint a rendelkezésre álló munkaerő megfelelő elosztása. 
 Egy könnyen használható weboldalt szeretnénk, amely lehetőséget nyújt feladatok kiírására, valamint aktuális állapotának számon tartására.
@@ -16,23 +19,28 @@ A kiírt feladatokat bármilyen irányban lehessen mozgatni a kategóriák köz�
 A dolgozók közötti munka megfelelő elosztása érdekében legyen lehetőség a feladatokhoz azokat végző személyeket megadni, valamint a munkavégzés tervezett idejét is számon lehessen tartani.
 
 
-4. Funkcionális követelmények
+4\. Funkcionális követelmények
+==============================
    
 
 
-5. Rendszerre vonatkozó törvények, szabványok, ajánlások
+5\. Rendszerre vonatkozó törvények, szabványok, ajánlások
+======================
    
 
 
-6. Jelenlegi üzleti folyamatok
+6\. Jelenlegi üzleti folyamatok
+===============================
    
 
    
-7. Igényelt üzleti folyamatok
+7\. Igényelt üzleti folyamatok
+==============================
    
 
 
-8. Követelménylista
+8\. Követelménylista
+====================
 
 | ID | Leírás |
 |----| ------ |
@@ -42,4 +50,5 @@ A dolgozók közötti munka megfelelő elosztása érdekében legyen lehetőség
 |K04| Munkavégzési stádium létrehozása, módosítása, törlése|
    
 
-9.  Fogalomtár
+9\.  Fogalomtár
+===============
