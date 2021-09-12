@@ -51,7 +51,7 @@ A dolgozók közötti munka megfelelő elosztása érdekében legyen lehetőség
 
 6\. Jelenlegi üzleti folyamatok
 ===============================
-Egy listánál a mobilitás fontos szempont, hogy mindig, minden időpontban, minden helyen tudjuk mit kell tennünk, azonban napjainkban még mindig rengetegen használnak papír alapú feljegyzéseket, aminek változtatása és zsebben tartása igen problémás lehet, ezzel szemben a ToDo List oldal használata egyszerűen változtatható, szimplán csak átírjuk a feladatunkat, vagy kicseréljük azt egy másikra, nem beszélve arról, hogy elég egy weboldalon tárolnunk azt.
+Egy listánál a mobilitás fontos szempont, hogy mindig, minden időpontban, minden helyen tudjuk mit kell tennünk, azonban napjainkban még mindig rengetegen használnak papír alapú feljegyzéseket, aminek változtatása és zsebben tartása igen problémás lehet, ezzel szemben a ToDo List oldal egyszerűen változtatható, szimplán csak átírjuk a feladatunkat, vagy kicseréljük azt egy másikra, nem beszélve arról, hogy elég egy weboldalon tárolnunk azt.
 Weboldalunk teljesen környezetbarát! A papír alapú listával szemben, a mi listánknál egy fának sem esett bántódása elkészítésekor, valamint egy betelt lista így már nem hagy maga után papírhulladékot.
 A rengeteg drága lista alkalmazás leváltására ez egy teljesen ingyenes projekt, mindössze internet hozzáférésre van szükségünk.
 
