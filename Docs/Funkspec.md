@@ -1,9 +1,9 @@
 1\. Áttekintés
 ==============
 Prioritást élvez a hozzáférhetőség illetve az egyszerűség. Nagyon fontos az, hogy egyértelmű legyen a használata, felhasználóbarát legyen.
-Törekszünk egy olyan design kialakitására, amely önmagától értetődő, különösebb dokumentáció használatot ne igényeljen az alkalmazás.
+Törekszünk egy olyan design kialakítására, amely önmagától értetődő, különösebb dokumentáció használatot ne igényeljen az alkalmazás.
 
-Elképzelésünk szerint nem tervezünk mikrotranzakciókat beleépiteni a szoftverünkbe, továbbá ez nem egy kalendáriumnak készül.
+Elképzelésünk szerint nem tervezünk mikrotranzakciókat beleépíteni a szoftverünkbe, továbbá ez nem egy kalendáriumnak készül.
 
 2\. Jelenlegi helyzet
 =====================
@@ -41,7 +41,7 @@ Elképzelésünk szerint nem tervezünk mikrotranzakciókat beleépiteni a szoft
 =======================================
 
    
-9\.  Fogalomtár
+9\.  Fogalomszótár
 ===============
 
 
