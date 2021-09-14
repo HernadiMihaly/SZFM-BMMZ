@@ -48,23 +48,23 @@ A kezelő felületnek jól átláthatónak, letisztultnak és esztétikusnak kel
    
 A weboldalnak meg kell felelnie minden hatályos jogszabálynak, szabványnak és ajánlásnak. Az egyik legfontosabb ilyen irányelv az adatvédelem, aminek meg kell felelnie az éppen hatájos GDPR jogszabálynak. Hasonlóan fontos terület a személyes adatok gyűjtésére vonatkozó jogszabályok. Ezen a területen a programnak meg kell felelnie a”2011. évi CXII. törvény az információs önrendelkezési jogról és az információszabadságról” -ban leírtaknak. Mindazonáltal a programnak meg kell felelnie a fogyatékkal élők érdekében hozott hozzáférhetőségi szabályozásoknak.
 
-6\. Jelenlegi üzleti folyamatok
+6\. Jelenlegi üzleti folyamatok modellje
 ===============================
 - Papír alapú teendőlista használata
-> Elavult, nehezen hordozható
-> Nagy mennyiségű papírhulladék
+> Elavult, nehezen hordozható,
+> Nagy mennyiségű papírhulladék,
 > Könnyen károsodó adatok (égés, ázás, elvesztés)
 - Toll és ceruza használat 
-> Gyakori az elmosódás, adathibásodás
-> Kényelmetlen és lassú folyamat
-> Óriási műanyaghulladék
+> Gyakori az elmosódás, adathibásodás,
+> Kényelmetlen és lassú folyamat,
+> Óriási műanyaghulladék,
 > Bonyolultan szerkeszthető
 - Drága, fizetős alkalmazás használat
 - Mobiltelefonos jegyzettömb használat
 - Számítógépes txt használat
 
    
-7\. Igényelt üzleti folyamatok
+7\. Igényelt üzleti folyamatok modellje
 ==============================
 - Online elérhető, ingyenes rendszer kialakítása
 -- Webes megjelenés mind mobilról (hordozhatóság), mind pedig számítógépről
