@@ -21,14 +21,38 @@ A megrendelő eddig csak papír alapú teendő listát használt, viszont látva
    
    
 
-4\. Jelenlegi üzleti folyamatok
+4\. Jelenlegi üzleti folyamatok modellje
 ===============================
-Egy listánál a mobilitás fontos szempont, hogy **mindig, minden időpontban, minden helyen** tudjuk mit kell tennünk, azonban napjainkban még mindig rengetegen használnak papír alapú feljegyzéseket, aminek változtatása és zsebben tartása igen problémás lehet, ezzel szemben a **ToDo List** oldal **egyszerűen változtatható**, szimplán csak átírjuk a feladatunkat, vagy kicseréljük azt egy másikra, nem beszélve arról, hogy elég egy weboldalon tárolnunk azt. Weboldalunk teljesen **környezetbarát**! A papír alapú listával szemben, a mi listánknál egy fának sem esett bántódása elkészítésekor, valamint egy betelt lista így már nem hagy maga után papírhulladékot. A rengeteg drága lista alkalmazás leváltására ez egy teljesen ingyenes projekt, mindössze **internet hozzáférésre van szükségünk**.
+- Papír alapú teendőlisták használata
+> Elavult, nehezen hordozható\
+> Nagy mennyiségű papírhulladék\
+> Könnyen károsodó adatok (égés, ázás, elvesztés)
+- A szöveg számítógépre történő bevitele helyett tollat és ceruzát használnak
+> Gyakori az elmosódás, adathibásodás\
+> Kényelmetlen és lassú folyamat\
+> Óriási műanyaghulladék\
+> Bonyolultan szerkeszthető
+- Drága, fizetős alkalmazások alkalmazása
+- Mobiltelefonos jegyzettömb használat
+- Számítógépes txt használat
 
    
-5\. Igényelt üzleti folyamatok
+5\. Igényelt üzleti folyamatok modellje
 ==============================
-A megrendelő, de egyben minden más ember igényeinek kielégítésére, a könnyebb kezelhetőség és átláthatóság érdekében, a felvett feladatokhoz el lehet helyezni egy-egy időpontot és egy-egy dátumot is, hogy a lista pontosan követhető legyen. A megrendelő To do, Pending és Done táblákat szeretne látni, ezért mi tetszőlegesen hozzáadható és elnevezhető munkaállapot táblákat/kártyákat tudunk kínálni a weboldalon, hogy bárki könnyedén fel tudja venni a számára megfelelő állapotokat (az előtte álló feladatokhoz mérten). Ezekbe a táblákba tudja felvenni a felhasználó a feladatait, valamint a megfelelő időpontot, dátumot, erre azért van szükség, hogy ezzel teret hagyjunk a felhasználó igényeinek, hogy **saját rendezettséget** tudjon készíteni **a saját listájának**. Ezzel egy csapásra kielégíthető a megrendelőnek azon igénye is, hogy a már nem aktuális, már kész, vagy a még nem biztos teendőket külön táblákba tudja elhelyezni, ha szeretné. A feladatok táblából-táblába mozgathatóak és törölhetőek, átnevezhetőek azokon belül. A színek összeállítása a következő: világosszürke háttér, törtfehér kártyák/táblák, fekete körvonallal, és fekete betűszín, a legelegánsabb, de egyben szemet kímélő árnyalatokat alkalmazva.  
+- Online elérhető, ingyenes rendszer kialakítása\
+-- Webes megjelenés mind mobilról, mind pedig számítógépről
+- Átlátható design kialakítása a weboldalon\
+-- Táblák/munkakör kártyák alkalmazása -> Szabadon hozzáadható és elnevezhető címsorú táblák alkalmazása\
+-- A feladatok kártyákon való elhelyezhetősége -> Gépeléses bevitel\
+-- Címsorok alkalmazása a táblák tetején -> Szabadon elnevezhető és módosítható nevű címsorok\
+--A megrendelő igénye a jól átlátható design, ennek érdekében sok segítséget nyújthat, hogy a feladatok mellé felvehető legyen a végzés időpontja és dátuma is
+- Elegáns design kialakítása\
+-- Letisztult , sima, de elegáns színű háttér-> szürke háttér, tört fehér táblák, fekete szegély\
+-- Egyszerű betűtípus és betűszín alkalmazása -> egyszerű fekete betűszín és Times New Roman betűtípus alkalmazása
+- A weboldalon lévő adatok szerkeszthetővé tétele/Könnyű szerkeszthetőség\
+-- A már felvett feladatok nevének szerkeszthetősége\
+-- A már nem kívánatos feladatok törölhetősége\
+-- A feladatok táblák közötti felcserélhetősége -> A már nem kívánt feladatokat egy tetszőleges táblába is át lehessen helyezni, vagy akár onnan vissza is (pl.: archiváltak tábla)
 
 6\. Képernyő terv
 =================
