@@ -51,13 +51,13 @@ A weboldalnak meg kell felelnie minden hatályos jogszabálynak, szabványnak é
 6\. Jelenlegi üzleti folyamatok modellje
 ===============================
 - Papír alapú teendőlista használata
-> Elavult, nehezen hordozható,
-> Nagy mennyiségű papírhulladék,
+> Elavult, nehezen hordozható\
+> Nagy mennyiségű papírhulladék\
 > Könnyen károsodó adatok (égés, ázás, elvesztés)
 - Toll és ceruza használat 
-> Gyakori az elmosódás, adathibásodás,
-> Kényelmetlen és lassú folyamat,
-> Óriási műanyaghulladék,
+> Gyakori az elmosódás, adathibásodás\
+> Kényelmetlen és lassú folyamat\
+> Óriási műanyaghulladék\
 > Bonyolultan szerkeszthető
 - Drága, fizetős alkalmazás használat
 - Mobiltelefonos jegyzettömb használat
@@ -66,18 +66,18 @@ A weboldalnak meg kell felelnie minden hatályos jogszabálynak, szabványnak é
    
 7\. Igényelt üzleti folyamatok modellje
 ==============================
-- Online elérhető, ingyenes rendszer kialakítása
+- Online elérhető, ingyenes rendszer kialakítása\
 -- Webes megjelenés mind mobilról (hordozhatóság), mind pedig számítógépről
-- Átlátható design kialakítása a weboldalon
--- Táblák/munkakör kártyák alkalmazása
--- A feladatok kártyákon való elhelyezhetősége
+- Átlátható design kialakítása a weboldalon\
+-- Táblák/munkakör kártyák alkalmazása\
+-- A feladatok kártyákon való elhelyezhetősége\
 -- Címsorok alkalmazása a táblák tetején
-- Elegáns design kialakítása
--- Letisztult , sima, de elegáns színű háttér
+- Elegáns design kialakítása\
+-- Letisztult , sima, de elegáns színű háttér\
 -- Egyszerű betűtípus és betűszín alkalmazása
-- A weboldalon lévő adatok szerkeszthetővé tétele/Könnyű szerkeszthetőség
--- A már felvett feladatok nevének szerkeszthetősége
--- A már nem kívánatos feladatok törölhetősége
+- A weboldalon lévő adatok szerkeszthetővé tétele/Könnyű szerkeszthetőség\
+-- A már felvett feladatok nevének szerkeszthetősége\
+-- A már nem kívánatos feladatok törölhetősége\
 -- A feladatok táblák közötti felcserélhetősége
 
 
