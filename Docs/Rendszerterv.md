@@ -16,7 +16,7 @@ Product owner: Hernádi Mihály
 ### Projektmunkások és felelősségek
 **<u> Backend munkálatok:** </u>\
 Balázs Bence, Hernádi Mihály, Kiss Marcell, Osztós Zsombor, Szilágyi Mihály
-*Feladatuk a képernyőn található gombok mögöttes funkcióinak beállítása.*
+*Feladatuk a képernyőn található gombok mögöttes funkcióinak beállítása.*\
 **<u> Frontend munkálatok:** </u>\
 Balázs Bence, Hernádi Mihály, Kiss Marcell, Osztós Zsombor, Szilágyi Mihály
 *A felsorolt személyek a weboldal elemeinek megjelenéséért (a gombok, táblák, és egyéb kiegészítők megjelenítéséért) felelősek.*
