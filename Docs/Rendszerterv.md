@@ -35,6 +35,10 @@ Mivel egy miniprojektről van szó a backend és frontend munkákat együttesen 
 |Felület elkészítése|Gombok elhelyezése,háttér és egyéb színek,betűtípusok   |2   |8   |8   |0   |8   |
 ```
 ```
+3\. Üzleti folyamatok modellje
+==============
+![](./Üfm.png)
+
 11\. Tesztterv
 ==============
 Egy alkalmazás készítésekor illetve az alkalmazás kiadása előtt nagyon fontos szerepet töltenek be a teszttervek.
