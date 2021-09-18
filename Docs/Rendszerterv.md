@@ -31,8 +31,10 @@ Mivel egy miniprojektről van szó a backend és frontend munkákat együttesen 
 |Követelmény specifikáció  |   | 0  |4   | 4  |4   |0   |
 |Funkcionális specifikáció |   | 0  |5   |5   |5   | 0  |
 |Rendszerterv |   |0   |7   |7   |3   |4   |
-|Kódháttér elkészítése|   |1   |3   |3   |0   |3   |
-|Felület elkészítése|   |2   |8   |8   |0   |8   |
+|Kódháttér elkészítése|Gombok működésének beállítása   |1   |3   |3   |0   |3   |
+|Felület elkészítése|Gombok elhelyezése,/ 
+háttér és egyéb színek,/
+betűtípusok   |2   |8   |8   |0   |8   |
 ```
 ```
 11\. Tesztterv
