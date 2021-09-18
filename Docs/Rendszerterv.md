@@ -8,6 +8,33 @@ Annak érdekében, hogy átlátható maradjon az alkalmazás, a design-ra nagyon
 
 Az egyszerűség részét képezi az, hogy egy olyan TODO alkalmazást hozzunk létre, melynek használatához fiókösszekapcsolás illetve regisztráció nem szükséges.
 
+2\. Projektterv
+==============
+### Projektszerepkörök, felelősségek:
+Scrum master: Hernádi Mihály
+Product owner: Hernádi Mihály
+### Projektmunkások és felelősségek
+**<u> Backend munkálatok:** </u>\
+Balázs Bence, Hernádi Mihály, Kiss Marcell, Osztós Zsombor, Szilágyi Mihály
+*Feladatuk a képernyőn található gombok mögöttes funkcióinak beállítása.*
+**<u> Frontend munkálatok:** </u>\
+Balázs Bence, Hernádi Mihály, Kiss Marcell, Osztós Zsombor, Szilágyi Mihály
+*A felsorolt személyek a weboldal elemeinek megjelenéséért (a gombok, táblák, és egyéb kiegészítők megjelenítéséért) felelősek.*
+
+Mivel egy miniprojektről van szó a backend és frontend munkákat együttesen végezzük. A projekt apróbb kódrészenként/részfeladatonként lesz felosztva a csapat tagjai között.
+
+**<u>Ütemterv:**</u>
+
+
+|  **Funkció/Story** | **Feladat/Task**  |  **Prioritás** | **Becslés**  |**Aktuális becslés**   |  **Eltelt idő**  |**Hátralévő idő**   |
+|---|---|---|---|---|---|---|
+|Követelmény specifikáció  |   | 0  |4   | 4  |4   |0   |
+|Funkcionális specifikáció |   | 0  |5   |5   |5   | 0  |
+|Rendszerterv |   |0   |7   |7   |3   |4   |
+|Kódháttér elkészítése|   |1   |3   |3   |0   |3   |
+|Felület elkészítése|   |2   |8   |8   |0   |8   |
+```
+```
 11\. Tesztterv
 ==============
 Egy alkalmazás készítésekor illetve az alkalmazás kiadása előtt nagyon fontos szerepet töltenek be a teszttervek.
