@@ -68,7 +68,7 @@ Törvényi előírások, szabványok:
 7\. Implementációs terv
 =======================
 
-A rendszer egy html oldalból áll, a funkcionalitást JavaScrip kód biztosítja, a megjelenés és elrendezés pedig egy css stíluslappal történik. A html oldal böngészőben betölthető, akár lokális fájlrendszerből, szerver oldali komponense nincs. A Vue.js és a jQuery JavaScript keretrendszereket használjuk a fejlesztés során. A kategóriák és feladatok száma dinamikusan változik, ennek kezelését megkönnyíti a Vue.js keretrendszer. Új feladat vagy kategória létrehozásánál és módosításánál modális dialógus panelt használunk, ami azt jelenti, hogy amíg a dialógus nyitva van, addig a felhasználó csak ennek elemeire kattinthat, csak ezeket használhatja, a felhasználói felület egyéb elemei zároltak számára. Ezt és a drag and drop funkcionalitást a jQuery keretrendszer segítségével valósítjuk meg.
+A rendszer egy html oldalból áll, a funkcionalitást JavaScrip kód biztosítja, a megjelenés és elrendezés pedig egy css stíluslappal történik. A html oldal böngészőben betölthető, akár lokális fájlrendszerből, szerver oldali komponense nincs. A Vue.js és a jQuery JavaScript keretrendszereket használjuk a fejlesztés során. A kategóriák és feladatok száma dinamikusan változik, ennek kezelését megkönnyíti a Vue.js keretrendszer. Új feladat vagy kategória létrehozásánál és módosításánál modális dialógus panelt használunk, ami azt jelenti, hogy amíg a dialógus nyitva van, addig a felhasználó csak ennek elemeire kattinthat, csak ezeket használhatja, a felhasználói felület egyéb elemei zároltak számára. Ezt és a drag and drop funkcionalitást a Vue.js keretrendszer segítségével valósítjuk meg.
 
 ### Adatszerkezet
 
