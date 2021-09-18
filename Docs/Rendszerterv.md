@@ -11,7 +11,7 @@ Az egyszerűség részét képezi az, hogy egy olyan TODO alkalmazást hozzunk l
 2\. Projektterv
 ==============
 ### Projektszerepkörök, felelősségek:
-Scrum master: Hernádi Mihály
+Scrum master: Hernádi Mihály\
 Product owner: Hernádi Mihály
 ### Projektmunkások és felelősségek
 **<u> Backend munkálatok:** </u>\
