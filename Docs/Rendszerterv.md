@@ -55,6 +55,9 @@ Az egyes feladatok létrehozás után a kategóriák valamelyikéhez lesznek ren
 
 Nem funkcionális követelmények:
 ------------------------------
+Esztétikus kezelőfelület
+
+Felhasználók ne férjenek hozzá más felhasználók eseményeihez
 
 Törvényi előírások, szabványok:
 ------------------------------
