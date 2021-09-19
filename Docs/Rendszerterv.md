@@ -140,3 +140,7 @@ Amennyiben hibás működésbe ütköznek a felhasználók, akkor egy tesztelés
 ===================
 
 
+\
++1\. A rendszer prototípusa: 
+===================
+https://app.mockplus.com/run/prototype/Ev2Buae75BKY/wl3INyGaCnO?ps=1
