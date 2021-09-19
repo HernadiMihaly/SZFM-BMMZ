@@ -201,6 +201,8 @@ Amennyiben hibás működésbe ütköznek a felhasználók, akkor egy tesztelés
 ===================
 
 A szoftver webes felületéhez csak egy ajánlott böngésző telepítése szükséges (Google Chrome, Firefox, Opera, Safari, Microsoft Edge), külön szoftver nem kell hozzá. A webszerverre közvetlenül az internetről kapcsolódnak rá a kliensek.
+
+
 \
 +1\: A rendszer prototípusa: 
 ===================
