@@ -112,7 +112,7 @@ A feladatokat html DOM elemeit (div) mozgathatóvá kell tenni(draggable), a kat
 
 Mentéskor a feladat és kategória tömböket szöveggé kell alakítani (JSON.stringify), és a localStorage-ben setItem-el eltárolni. Betöltéskor a localStorage-ből getItem-el ki kell venni a lementett szövegeket és a JSON.parse metódusával tömbökké kell alakítani.
 
-11\. Tesztterv
+8\. Tesztterv
 ==============
 Egy alkalmazás készítésekor illetve az alkalmazás kiadása előtt nagyon fontos szerepet töltenek be a teszttervek.
 
