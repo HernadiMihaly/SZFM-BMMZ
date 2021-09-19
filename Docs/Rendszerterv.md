@@ -83,8 +83,9 @@ Admin:
 
 ● Feladat tábla hozzáadása, szerkesztése, törlése
 
+● Az aktuális, kész, vagy a még nem biztos teendőket külön táblákba tudja helyezni
 
-
+● Feladatok sorrendbe helyezése
 
 
 
