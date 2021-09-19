@@ -83,7 +83,22 @@ Admin:
 
 ● Feladat tábla hozzáadása, szerkesztése, törlése
 
+
+
+
+
+
+
+User:
+------------------------------
+● Feladat tábla hozzáadása, szerkesztése, törlése
+
 ● Időpont rendelése táblához
+
+● Feladatok sorrendbe helyezése
+
+● Az aktuális, kész, vagy a még nem biztos teendőket külön táblákba tudja helyezni
+
 
 6\. Fizikai környezet
 ====================
