@@ -108,13 +108,19 @@ Menü hierarchiák:
 
 
 
-
-
-
-
-
 6\. Fizikai környezet
 ====================
+● Az alkalmazás web platformra, hordozható
+eszközökre(okostelefonok,táblagépek) készül.
+● Van tűzfal a hálózaton és minden portot is engedélyez.
+● Nincsenek megvásárolt komponenseink.
+
+
+
+
+
+
+
 
 7\. Implementációs terv
 =======================
