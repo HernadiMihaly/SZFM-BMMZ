@@ -100,6 +100,18 @@ User:
 
 ● Az aktuális, kész, vagy a még nem biztos teendőket külön táblákba tudja helyezni
 
+Menü hierarchiák:
+------------------------------
+● MAIN MENÜ
+    
+- feladat hozzáadása
+
+
+
+
+
+
+
 
 6\. Fizikai környezet
 ====================
