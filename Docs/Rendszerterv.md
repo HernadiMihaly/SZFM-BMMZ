@@ -112,7 +112,9 @@ Menü hierarchiák:
 ====================
 ● Az alkalmazás web platformra, hordozható
 eszközökre(okostelefonok,táblagépek) készül.
+
 ● Van tűzfal a hálózaton és minden portot is engedélyez.
+
 ● Nincsenek megvásárolt komponenseink.
 
 ● Fejlesztői eszközök:
