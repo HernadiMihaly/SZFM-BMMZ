@@ -60,7 +60,13 @@ Törvényi előírások, szabványok:
 ------------------------------
 
 5\. Funkcionális terv
+Webalkalmazásunk célja, hogy a hétköznapi emberek mindennapjait könnyítsük meg, ezáltal törekedünk az alkalmazás átláthatóságára, egyszerűségére, és kényelmes használatára.
+
+Rendszerszereplők:
 ====================
+Admin
+User
+
 
 6\. Fizikai környezet
 ====================
