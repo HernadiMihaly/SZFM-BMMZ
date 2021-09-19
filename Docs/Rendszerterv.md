@@ -59,6 +59,12 @@ Nem funkcionális követelmények:
 Törvényi előírások, szabványok:
 ------------------------------
 
+    -GDPR jogszabályoknak való megfelelés
+    
+    -2011. évi CXII. törvény az információs önrendelkezési jogról és az információszabadságról
+    
+    -Fogyatékkal élők érdekében létrehozott hozzáférhetőségi jogszabályok
+
 5\. Funkcionális terv
 Webalkalmazásunk célja, hogy a hétköznapi emberek mindennapjait könnyítsük meg, ezáltal törekedünk az alkalmazás átláthatóságára, egyszerűségére, és kényelmes használatára.
 
