@@ -24,3 +24,20 @@ body {
     transform:scale(1.05);
 }
 
+.modositTodomentésspan, .modositTodomégsespan{
+    font-family: "Times New Roman", Times, serif;
+}
+
+#todoImage {
+	width: 5%;
+	position: absolute;
+	top: 0;
+	left: 50px;
+}
+
+#todoImage2 {
+	width: 5%;
+	position: absolute;
+	top: 0;
+	left: 450px;
+}
