@@ -1,1 +1,122 @@
 
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Teszt</title>
+
+  </head>
+  <body>
+	<div id="cimsor">
+      <h1 class="cim">TODO List</h1>
+	  <img id="todoImage" src="todo.png">
+	  <img id="todoImage2" src="todo.png">
+	</div>
+	<div id="app">
+		<div class="kategoriak">
+			<div v-for="kategoria in kategoriak" class="kategoria" >
+                
+                <input class="kategorianev" v-model="kategoria.nev" />
+				<ul class="ufeladat">
+					<li class="feladat" v-for="todo in todos" v-if="todo.kategoria.id == kategoria.id" >
+						{{ todo.nev }} <br> Dolgozó: {{ todo.dolgozo }} <br> Határidő: {{ todo.hatarido }} <br>  
+					</li>
+				</ul>
+				
+			</div>
+			
+		</div>
+		
+	</div>
+	
+		
+	<script>
+		class Kategoria {
+		   constructor(id, nev) {
+				this.id = id;
+				this.nev = nev;
+		   }
+		}
+		
+		class Todo {
+			constructor(id, nev, dolgozo, hatarido, kategoria) {
+				this.id = id;
+				this.nev = nev;
+				this.dolgozo = dolgozo;
+				this.hatarido = hatarido;
+				this.kategoria = kategoria;
+			}
+		}
+		
+		function loadKategoriak() {
+		
+			return [
+				new Kategoria(1, 'Első'),
+			];
+		}
+		
+		function loadTodos() {
+
+			return [
+				new Todo(1, 'Valami 1', 'Dolgozo 1', 'Hatarido 1' ,getKategoria(1)),
+			];
+		}
+		
+	    var kategoriak = loadKategoriak();
+		var todos = loadTodos();
+		
+		
+		function getKategoria(id) {
+			for (let i = 0; i < kategoriak.length; i++) {
+				temp = kategoriak[i];
+				if (temp.id == id) {
+					return temp;
+				}
+			}
+			return null;
+		}
+		
+		function getNewID(array) {
+			maxID = -1;
+			for (let i = 0; i < array.length; i++) {
+				temp = array[i];
+				if (temp.id > maxID) {
+					maxID = temp.id;
+				}
+			}
+			return maxID+1;
+		}
+		
+	
+		var app = new Vue({
+		  el: '#app',
+		  data: {
+			todos: todos,
+			kategoriak: kategoriak,
+			ujKatNev: "",
+			ujTodoNev: "",
+			ujDolgozoNev: "",
+			ujHatarido: "",
+			kivalasztottTodo: "",
+			kivalasztottKategoria: ""
+		  },
+		  
+		  methods: {
+			
+		  },
+		});
+		
+		$( function() {
+		
+
+		} );
+		
+	</script>
+  </body>
