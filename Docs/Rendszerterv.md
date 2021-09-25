@@ -46,6 +46,7 @@ Mivel egy miniprojektről van szó a backend és frontend munkákat együttesen 
 ![](./Üzleti_modell.png)
 ![](./Üfm.png)
 
+
 4\. Követelmények
 =================
 
