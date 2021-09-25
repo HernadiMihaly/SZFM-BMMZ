@@ -26,7 +26,8 @@
                 <input class="kategorianev" v-model="kategoria.nev" />
 				<ul class="ufeladat">
 					<li class="feladat" v-for="todo in todos" v-if="todo.kategoria.id == kategoria.id" >
-						{{ todo.nev }} <br> Dolgozó: {{ todo.dolgozo }} <br> Határidő: {{ todo.hatarido }} <br>  
+						{{ todo.nev }} <br> Dolgozó: {{ todo.dolgozo }} <br> Határidő: {{ todo.hatarido }} <br> 
+						<button v-on:click="modositTodoGomb(todo.id)">Mod</button>
 					</li>
 				</ul>
 				<button class="todogomb" v-on:click="ujTodoGomb(kategoria.id)">Új feladat</button>
@@ -47,6 +48,14 @@
 			Határidő:<input class="dialogInput" v-model="ujHatarido"></input>
 			<button v-on:click="addTodo"><span class="ujTodomentésspan">Mentés</span></button>
 			<button v-on:click="ujTodoMegsem"><span class="ujTodomégsespan">Mégsem</span></button>
+		</div>
+		
+		<div id="modositTodoDialog">
+			Feladat neve:<input class="dialogInput" v-model="ujTodoNev"></input>
+			Dolgozó neve:<input class="dialogInput" v-model="ujDolgozoNev"></input>
+			Határidő:<input class="dialogInput" v-model="ujHatarido"></input>
+			<button v-on:click="modositTodo"><span class="modositTodomentésspan">Mentés</span></button>
+			<button v-on:click="modositTodoMegsem"><span class="modositTodomégsespan">Mégsem</span></button>
 		</div>
 
 	  </div>
@@ -142,6 +151,25 @@
 				$("#ujTodoDialog").dialog("close");
 			},
 			
+			modositTodoGomb: function (id) {
+				this.kivalasztottTodo = this.todos.find(todo => todo.id == id);
+				this.ujTodoNev = this.kivalasztottTodo.nev;
+				this.ujDolgozoNev = this.kivalasztottTodo.dolgozo;
+				this.ujHatarido = this.kivalasztottTodo.hatarido;
+				$("#modositTodoDialog").dialog("open");
+			},
+			
+			modositTodo: function (todoID) {
+				this.kivalasztottTodo.nev = this.ujTodoNev;
+				this.kivalasztottTodo.dolgozo = this.ujDolgozoNev;
+				this.kivalasztottTodo.hatarido = this.ujHatarido;
+				$("#modositTodoDialog").dialog("close");
+			},
+			
+			modositTodoMegsem: function () {
+				$("#modositTodoDialog").dialog("close");
+			},
+			
 			ujKatGomb: function () {
 				this.ujKatNev = "";
 				$("#ujKategoriaDialog").dialog("open");
@@ -175,10 +203,17 @@
 						height: 400,
 						width: 350,
 						modal: true});
+			
+			$("#modositTodoDialog")
+				.dialog({title: 'Módosítás',
+						autoOpen: false,
+						height: 400,
+						width: 350,
+						modal: true});
 		
 		} );
 		
 	</script>
   </body>
 
-
+			
