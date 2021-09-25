@@ -21,11 +21,14 @@
 	</div>
 	<div id="app">
 		<div class="kategoriak">
-			<div v-for="kategoria in kategoriak" class="kategoria" >
+			<div v-for="kategoria in kategoriak" class="kategoria" @drop='onDrop($event, kategoria, null)' 
+			@dragover.prevent @dragenter.prevent >
                 
                 <input class="kategorianev" v-model="kategoria.nev" />
 				<ul class="ufeladat">
-					<li class="feladat" v-for="todo in todos" v-if="todo.kategoria.id == kategoria.id" >
+					<li class="feladat" v-for="todo in todos" v-if="todo.kategoria.id == kategoria.id" 
+					draggable @dragstart='startDrag($event, todo)' @drop='onDrop($event, kategoria, todo)' 
+                    @dragover.prevent @dragenter.prevent >
 						{{ todo.nev }} <br> Dolgozó: {{ todo.dolgozo }} <br> Határidő: {{ todo.hatarido }} <br> 
 						<button v-on:click="modositTodoGomb(todo.id)">Mod</button>
 					</li>
@@ -184,6 +187,46 @@
 			ujKatMegsem: function () {
 				$("#ujKategoriaDialog").dialog("close");
 			},
+
+			startDrag: (evt, todo) => {
+				evt.dataTransfer.dropEffect = 'move'
+				evt.dataTransfer.effectAllowed = 'move'
+				evt.dataTransfer.setData('todoID', todo.id)
+			},
+
+			onDrop (evt, kategoria, targetTodo) {
+				const todoID = evt.dataTransfer.getData('todoID')
+				const todo = this.todos.find(todo => todo.id == todoID)
+				todo.kategoria = kategoria;
+				
+				if (targetTodo != null) {
+					targetIndex = this.todos.indexOf(targetTodo, 0);
+					console.log(targetIndex);
+					sourceIndex = this.todos.indexOf(todo, 0);
+					console.log(sourceIndex);
+					if(sourceIndex == targetIndex) {
+						return;
+					}
+					this.todos.splice(sourceIndex,1);
+					if (targetIndex > sourceIndex) {
+						--targetIndex;
+					}
+					rect = evt.currentTarget.getBoundingClientRect();
+					console.log(rect);
+					console.log(evt.clientY);
+					
+					firstHalf = evt.clientY < rect.top + rect.height / 2;
+					console.log(firstHalf);
+					if (!firstHalf) {
+						targetIndex++;
+					}
+					
+					this.todos.splice(targetIndex, 0, todo);
+				}
+				
+				evt.stopPropagation();
+				evt.preventDefault();
+			}
 			
 		  },
 		});
