@@ -35,14 +35,18 @@ Mivel egy miniprojektről van szó a backend és frontend munkákat együttesen 
 |Felület elkészítése|Gombok elhelyezése,háttér és egyéb színek,betűtípusok   |2   |8   |8   |0   |8   |
 ```
 ```
-3\. Használati esetek modellje
-==============
+3\. Üzleti folyamatok modellje
+=================
+- Üzleti szereplők: USER, Fejlesztők
+- Üzleti folyamatok: 
+-- Táblák és feladatok létrehozása, törlése, módosítása, cseréje
+-- Gombok használata (mentés, betöltés, új kategória, új feladat)
+-- Feladatok megtekintése
+-- Hibakezelés! USER <-> Fejlesztők
+![](./Üzleti_modell.png)
 ![](./Üfm.png)
 
-4\. Üzleti folyamatok modellje
-=================
-
-5\. Követelmények
+4\. Követelmények
 =================
 
 Funkcionális követelmények:
@@ -71,7 +75,7 @@ Törvényi előírások, szabványok:
     
     -Fogyatékkal élők érdekében létrehozott hozzáférhetőségi jogszabályok
 
-6\. Funkcionális terv
+5\. Funkcionális terv
 =================
 Webalkalmazásunk célja, hogy a hétköznapi emberek mindennapjait könnyítsük meg, ezáltal törekedünk az alkalmazás átláthatóságára, egyszerűségére, és kényelmes használatára.
 
@@ -121,7 +125,7 @@ Menü hierarchiák:
 
 
 
-7\. Fizikai környezet
+6\. Fizikai környezet
 ====================
 ● Az alkalmazás web platformra, hordozható
 eszközökre(okostelefonok,táblagépek) készül.
@@ -139,7 +143,7 @@ eszközökre(okostelefonok,táblagépek) készül.
 
 
 
-8\. Implementációs terv
+7\. Implementációs terv
 =======================
 
 A rendszer egy html oldalból áll, a funkcionalitást JavaScrip kód biztosítja, a megjelenés és elrendezés pedig egy css stíluslappal történik. A html oldal böngészőben betölthető, akár lokális fájlrendszerből, szerver oldali komponense nincs. A Vue.js és a jQuery JavaScript keretrendszereket használjuk a fejlesztés során. A kategóriák és feladatok száma dinamikusan változik, ennek kezelését megkönnyíti a Vue.js keretrendszer. Új feladat vagy kategória létrehozásánál és módosításánál modális dialógus panelt használunk, ami azt jelenti, hogy amíg a dialógus nyitva van, addig a felhasználó csak ennek elemeire kattinthat, csak ezeket használhatja, a felhasználói felület egyéb elemei zároltak számára. Ezt és a drag and drop funkcionalitást a Vue.js keretrendszer segítségével valósítjuk meg.
@@ -186,7 +190,7 @@ A feladatokat html DOM elemeit (div) mozgathatóvá kell tenni(draggable), a kat
 
 Mentéskor a feladat és kategória tömböket szöveggé kell alakítani (JSON.stringify), és a localStorage-ben setItem-el eltárolni. Betöltéskor a localStorage-ből getItem-el ki kell venni a lementett szövegeket és a JSON.parse metódusával tömbökké kell alakítani.
 
-9\. Tesztterv
+8\. Tesztterv
 ==============
 Egy alkalmazás készítésekor illetve az alkalmazás kiadása előtt nagyon fontos szerepet töltenek be a teszttervek.
 
@@ -215,7 +219,7 @@ Amennyiben hibás működésbe ütköznek a felhasználók, akkor egy tesztelés
 Böngészők: Google Chrome 93.0.4577.82-es stabil asztali verzió, Mozilla Firefox 92.0-s stabil asztali verzió, Microsoft Edge 93.0.961.52-es stabil asztali verzió
 Operációs rendszer: Windows 10 21H1-es stabil asztali verzió
 
-10\. Telepítési terv
+9\. Telepítési terv
 ===================
 
 A szoftver webes felületéhez csak egy ajánlott böngésző telepítése szükséges (Google Chrome, Firefox, Opera, Safari, Microsoft Edge), külön szoftver nem kell hozzá. A webszerverre közvetlenül az internetről kapcsolódnak rá a kliensek.
