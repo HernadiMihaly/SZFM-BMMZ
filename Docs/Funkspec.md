@@ -40,7 +40,7 @@ A megrendelő eddig csak papír alapú teendő listát használt, viszont látva
 5\. Igényelt üzleti folyamatok modellje
 ==============================
 - Online elérhető, ingyenes rendszer kialakítása\
--- Webes megjelenés mind mobilról, mind pedig számítógépről
+-- Webes megjelenés
 - Átlátható design kialakítása a weboldalon\
 -- Táblák/munkakör kártyák alkalmazása -> Szabadon hozzáadható és elnevezhető címsorú táblák alkalmazása\
 -- A feladatok kártyákon való elhelyezhetősége -> Gépeléses bevitel\
