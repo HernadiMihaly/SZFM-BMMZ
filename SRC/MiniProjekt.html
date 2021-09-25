@@ -23,14 +23,18 @@
 		<div class="kategoriak">
 			<div v-for="kategoria in kategoriak" class="kategoria" @drop='onDrop($event, kategoria, null)' 
 			@dragover.prevent @dragenter.prevent >
+                <div class="kattorlodiv">
+			<input class="kategorianev" v-model="kategoria.nev" />
+			<button class="kattorlo" v-on:click="kategoriatorloGomb(kategoria.id)">X</button> 
+				</div>
                 
-                <input class="kategorianev" v-model="kategoria.nev" />
 				<ul class="ufeladat">
 					<li class="feladat" v-for="todo in todos" v-if="todo.kategoria.id == kategoria.id" 
 					draggable @dragstart='startDrag($event, todo)' @drop='onDrop($event, kategoria, todo)' 
                     @dragover.prevent @dragenter.prevent >
 						{{ todo.nev }} <br> Dolgozó: {{ todo.dolgozo }} <br> Határidő: {{ todo.hatarido }} <br> 
 						<button v-on:click="modositTodoGomb(todo.id)">Mod</button>
+						<button v-on:click="feladattorloGomb(todo.id)">Feladat törlése</button>
 					</li>
 				</ul>
 				<button class="todogomb" v-on:click="ujTodoGomb(kategoria.id)">Új feladat</button>
@@ -262,8 +266,33 @@
 				}
 				
 			},
-			
-		  },
+			feladattorloGomb: function (id) {
+				this.kivalasztottTodo = this.todos.find(todo => todo.id == id);
+				let index;
+				for (let i = 0; i < todos.length; i++) {
+				    if(todos[i].id==id){
+					index=i;
+				    }
+				}
+				valasz = confirm("Biztos Ön ebben?");
+				if (valasz) {
+				    this.todos.splice(index,1);
+				}
+			    },
+
+			    kategoriatorloGomb: function (id){
+				let index;
+				for (let i = 0; i < kategoriak.length; i++) {
+				    if(kategoriak[i].id==id){
+					index=i;
+				    }
+				}
+				valasz = confirm("Biztos Ön ebben?");
+				if (valasz) {
+				    this.kategoriak.splice(index,1);
+				}
+			    },
+			},
 		});
 		
 		$( function() {
