@@ -6,12 +6,13 @@ body {
 .kategoriak {
 	display: flex;
 	width: 300px;
-}
-.kategoria {
-	display: block;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-bottom: 10px;
 }
 
 .kategoria{
+    display: block;
     border-style: solid;
     margin-right: 20px;
     background-color: beige;
@@ -23,8 +24,3 @@ body {
     transform:scale(1.05);
 }
 
-.kategoriak{
-    margin-top: 100px;
-    margin-left: 50px;
-    margin-bottom: 10px;
-}
