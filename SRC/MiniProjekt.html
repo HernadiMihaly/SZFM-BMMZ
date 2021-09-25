@@ -29,12 +29,27 @@
 						{{ todo.nev }} <br> Dolgozó: {{ todo.dolgozo }} <br> Határidő: {{ todo.hatarido }} <br>  
 					</li>
 				</ul>
-				
+				<button class="todogomb" v-on:click="ujTodoGomb(kategoria.id)">Új feladat</button>
 			</div>
-			
+				<button id="ujKatGomb" v-on:click="ujKatGomb">Új kategoria</button>
+	
 		</div>
-		
-	</div>
+							
+		<div id="ujKategoriaDialog">
+			<input class="katdiainput" v-model="ujKatNev"></input>
+			<button class="katdiagomb1" v-on:click="addKategoria"><span class="mentésspan">Mentés</span></button>
+			<button class="katdiagomb2" v-on:click="ujKatMegsem"><span class="mégsemspan">Mégsem</span></button>
+		</div>
+	  
+		<div id="ujTodoDialog">
+			Feladat neve:<input class="dialogInput" v-model="ujTodoNev"></input>
+			Dolgozó neve:<input class="dialogInput" v-model="ujDolgozoNev"></input>
+			Határidő:<input class="dialogInput" v-model="ujHatarido"></input>
+			<button v-on:click="addTodo"><span class="ujTodomentésspan">Mentés</span></button>
+			<button v-on:click="ujTodoMegsem"><span class="ujTodomégsespan">Mégsem</span></button>
+		</div>
+
+	  </div>
 	
 		
 	<script>
@@ -109,14 +124,61 @@
 		  },
 		  
 		  methods: {
+			  ujTodoGomb: function (katid) {
+				this.kivalasztottKategoria = getKategoria(katid);
+				this.ujTodoNev = "";
+				this.ujDolgozoNev = "";
+				this.ujHatarido = "";
+				$("#ujTodoDialog").dialog("open");
+			},
+			
+			addTodo: function () {
+				id = getNewID(this.todos);
+				this.todos.push(new Todo(id, this.ujTodoNev, this.ujDolgozoNev, this.ujHatarido, this.kivalasztottKategoria));
+				$("#ujTodoDialog").dialog("close");
+			},
+			
+			ujTodoMegsem: function () {
+				$("#ujTodoDialog").dialog("close");
+			},
+			
+			ujKatGomb: function () {
+				this.ujKatNev = "";
+				$("#ujKategoriaDialog").dialog("open");
+			},
+			
+			addKategoria: function () {
+				id = getNewID(this.kategoriak);
+				this.kategoriak.push(new Kategoria(id, this.ujKatNev));
+				$("#ujKategoriaDialog").dialog("close");
+			},
+			
+			ujKatMegsem: function () {
+				$("#ujKategoriaDialog").dialog("close");
+			},
 			
 		  },
 		});
 		
 		$( function() {
-		
+	
+			$("#ujKategoriaDialog")
+				.dialog({title: 'Új kategória',
+				        autoOpen: false,
+						height: 400,
+						width: 350,
+						modal: true});
 
+			$("#ujTodoDialog")
+				.dialog({title: 'Új feladat',
+						autoOpen: false,
+						height: 400,
+						width: 350,
+						modal: true});
+		
 		} );
 		
 	</script>
   </body>
+
+
