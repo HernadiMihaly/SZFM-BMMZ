@@ -38,6 +38,11 @@
 				<button id="ujKatGomb" v-on:click="ujKatGomb">Új kategoria</button>
 	
 		</div>
+
+		<div class="gombok">
+			<button class="save" v-on:click="save">Mentés</button>
+			<button class="load" v-on:click="load">Betöltés</button>
+		</div>
 							
 		<div id="ujKategoriaDialog">
 			<input class="katdiainput" v-model="ujKatNev"></input>
@@ -83,13 +88,26 @@
 		}
 		
 		function loadKategoriak() {
-		
+			katJSON = window.localStorage.getItem("kategoriak");
+			if (katJSON != null) {
+				return JSON.parse(katJSON);
+			}
+			
 			return [
 				new Kategoria(1, 'Első'),
 			];
 		}
 		
 		function loadTodos() {
+            todosJSON = window.localStorage.getItem("todos");
+			
+			if (todosJSON != null) {
+				t = JSON.parse(todosJSON);
+				for (let i = 0; i < t.length; i++) {
+					t[i].kategoria = getKategoria(t[i].kategoria.id);
+				}
+				return t;
+			}
 
 			return [
 				new Todo(1, 'Valami 1', 'Dolgozo 1', 'Hatarido 1' ,getKategoria(1)),
@@ -226,7 +244,24 @@
 				
 				evt.stopPropagation();
 				evt.preventDefault();
-			}
+			},
+
+			save: function () {
+				const todosJSON = JSON.stringify(this.todos); 
+				const katJSON = JSON.stringify(this.kategoriak);
+				window.localStorage.setItem("todos", todosJSON);
+				window.localStorage.setItem("kategoriak", katJSON);
+				alert("A mentés rendben megtörtént.");
+			},
+			load: function () {
+				valasz = confirm("Biztos Ön ebben?");
+				if (valasz) {
+					this.kategoriak = loadKategoriak();
+					kategoriak = this.kategoriak;
+					this.todos = loadTodos();
+				}
+				
+			},
 			
 		  },
 		});
