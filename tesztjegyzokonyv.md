@@ -12,6 +12,13 @@ Böngésző verzió: Firefox 92.0.1
 
 Operációs rendszer: Windows 10
 
+Tesztek Opera GX böngészőn
+=======================
+
+Böngésző verzió: Opera GX 92
+
+Operációs rendszer: Windows 10
+
 1\. Todo kategória hozzáadása
 -----------------------
 
@@ -21,6 +28,8 @@ A mentés gombra kattintva megjelenik egy új kategória a megadott névvel.
 Tényleges viselkedés: Az új kategória oszlopa sikeresen létrejött, a megadott névvel. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
 Tényleges viselkedés: Az adott kategória hozzáadásra került az új kategória gombot használva. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
+
+Tényleges viselkedés: A todo kategória sikeresen létrejött a megadott névvel. Tesztelve: Opera GX-ben Kiss Marcell által.
 
 2\. Todo feladat hozzáadása listához
 --------------------------
@@ -32,6 +41,8 @@ Tényleges viselkedés: Az új feladatkártya létrejött a kiválasztott oszlop
 
 Tényleges viselkedés: Az adott feladat hozzáadásra került az új feladat gombot használva. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
 
+Tényleges viselkedés: A Todo feladatot a rendszer a megadott adatokkal felvette. Tesztelve: Opera GX-ben Kiss Marcell által.
+
 3\. Todo kategória törlése
 --------------------------
 
@@ -40,6 +51,8 @@ Elvárt viselkedés: A kategória táblák jobb felső sarkában lévő X mezőr
 Tényleges viselkedés: A kategória törlése az OK gomb nyomása után megtörténik, mégse gombbal visszavonható. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
 Tényleges viselkedés: Az adott kategória törlésre került a piros X-et használva. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
+
+Tényleges viselkedés: Sikerült a kategóriákat törölnöm az X-re kattintva. Tesztelve: Opera GX-ben Kiss Marcell által.
 
 4\. Todo feladat törlése
 --------------------------
@@ -50,6 +63,8 @@ Tényleges viselkedés: A feladat törlése az OK gomb nyomása után megtörté
 
 Tényleges viselkedés: Az adott feladat törlésre került a törlés mezőt használva. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
 
+Tényleges viselkedés: Sikerült törölni a hozzáadott feladatokat a feladat törlése gombra kattintva. Tesztelve: Opera GX-ben Kiss Marcell által.
+
 5\. Todo listák és feladatok perzisztenciája
 --------------------------------------------
 
@@ -59,6 +74,8 @@ Tényleges viselkedés: A betöltés gombra nyomva a legutóbb kimentett állapo
 
 Tényleges viselkedés: Az állások mentésre illetve betöltésre kerültek a mentés és betöltés gombot használva. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
 
+Tényleges viselkedés: A tesztelés során azt tapasztaltam, hogy a todo listák megmaradnak a mentés után, az újratöltést követően. Tesztelve: Opera GX-ben Kiss Marcell által.
+
 6\. Todo kategórianév módosítása
 --------------------------------------------
 
@@ -67,6 +84,8 @@ Elvárt viselkedés: A különféle táblákban lévő fejlécre kattintva tudju
 Tényleges viselkedés: A kategória fejlécében a nevet átírva a módosítás megtörténik. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
 Tényleges viselkedés: Kijelölésük után a fejlécek módosításra kerültek. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
+
+Tényleges viselkedés: A fejlécre kattintva a teszt során, sikerült a kategórianevet módosítanom. Tesztelve: Opera GX-ben Kiss Marcell által.
 
 7\. Todo feladat adatainak módosítása
 ---------------------------
@@ -79,6 +98,8 @@ Tényleges viselkedés: A feladat adatainak módosítása a mentésre nyomva meg
 
 Tényleges viselkedés: Az adatok módosításra kerültek a módosítás gombot használva. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
 
+Tényleges viselkedés: A módosítás gombra kattintva sikerült a feladat adatainak megváltoztatása a mentés gombbal. A mégsem gomb megnyomásakor nem történik változás. Tesztelve: Opera GX-ben Kiss Marcell által.
+
 8\. Todo feladatok mozgatása kategóriák között
 ---------------------------
 
@@ -89,6 +110,8 @@ Tényleges viselkedés: A feladatok áthúzhatóak másik kategóriába, megjele
 
 Tényleges viselkedés: A feladatok megfelelően mozgathatóak kategóriák között. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
 
+Tényleges viselkedés: A feladatokat sikerült az egérrel áthúznom egyik táblából a másikba. Tesztelve: Opera GX-ben Kiss Marcell által.
+
 9\. Todo feladatok átrendezése egy kategórián belül
 ---------------------------------------------------
 
@@ -97,6 +120,8 @@ Elvárt viselkedés: Egy adott kategórián belül az egér letartásával képe
 Tényleges viselkedés: A feladat kártyáját egy másik feladatra húzva áthelyezhetjük a cél feladat elé vagy mögé. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
 Tényleges viselkedés: A feladatok megfelelően mozgathatóak egy kategórián belül. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
+
+Tényleges viselkedés: Sikerült a feladatok átrendezése, az egérgomb nyomvatartásával és a feladat egy másikra húzásával. Tesztelve: Opera GX-ben Kiss Marcell által.
 
 
 10\. Todo stílus ellenőrzése
@@ -107,3 +132,5 @@ Elvárt viselkedés: Elegáns, de egyben egyszerű/letisztult stílust várunk e
 Tényleges viselkedés: Az oldal megjelenése megfelel a kikötéseknek. Tesztelve: Google Chrome-ban Osztós Zsombor által.
 
 Tényleges viselkedés: A megjelenítés megfelelően jelenik meg a felhasználó számára. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
+
+Tényleges viselkedés: Az oldal megjelenése az elvártnak megfelelő. Tesztelve: Opera GX-ben Kiss Marcell által.
