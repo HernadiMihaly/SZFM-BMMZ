@@ -42,3 +42,20 @@ Elvárt viselkedés: A különféle táblákban lévő módosítás gombra katti
 
 Tényleges viselkedés:
 
+7\.Todo feladat adatainak módosítása
+---------------------------
+
+Elvárt viselkedés: Egy feladat kártyáján lévő módosítás gombra kattintva megjelenik egy dialógus doboz,
+ahol átírhatjuk a feladat adatait. A mentés gombra kattintva a feladat adatai a beírtakra változnak, mégse
+gombra kattintva a korábbi állapotban maradnak.
+
+Tényleges viselkedés:
+
+8\.Todo feladatok mozgatása kategóriák között
+---------------------------
+
+Elvárt viselkedés: A feladatok drag and drop módszerrel mozgathatóak a kategóriák között. Egy feladatot másik kategóriába
+húzva a feladat átkerül az új kategória oszlopába.
+
+Tényleges viselkedés:
+
