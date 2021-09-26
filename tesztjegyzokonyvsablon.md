@@ -38,7 +38,7 @@ Tényleges viselkedés:
 6\. Todo kategórianév módosítása
 --------------------------------------------
 
-Elvárt viselkedés: A különféle táblákban lévő módosítás gombra kattintva tudjuk módosítani a teendőinket.
+Elvárt viselkedés: A különféle táblákban lévő fejlécre kattintva tudjuk módosítani a teendőinket.
 
 Tényleges viselkedés:
 
