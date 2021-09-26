@@ -6,7 +6,7 @@ A mentés gombra kattintva megjelenik egy új kategória a megadott névvel.
 
 Tényleges viselkedés:
 
-2.\ Todo feladat hozzáadása listához
+2\. Todo feladat hozzáadása listához
 --------------------------
 
 Elvárt viselkedés: Az egyes kategóriák oszlopának alján elhelyezkedő új feladat gombra kattintva megjelenik egy dialógus doboz,
