@@ -82,31 +82,11 @@ Webalkalmazásunk célja, hogy a hétköznapi emberek mindennapjait könnyítsü
 
 Rendszerszereplők:
 ====================
-Admin
 
 User
 
 Rendszerhasználati esetek és lefutásaik:
 ====================
-
-Admin:
-------------------------------
-● Beléphet bármilyen szereplőként teljes hozzáférése van a rendszerhez
-
-● A felhasználói adatokat látják, változtathatják
-
-● Felhasználó hozzáadására, törlésére van lehetőségük
-
-● Felhasználói adatok módosítása
-
-● Feladat tábla hozzáadása, szerkesztése, törlése
-
-● Az aktuális, kész, vagy a még nem biztos teendőket külön táblákba tudja helyezni
-
-● Feladatok sorrendbe helyezése
-
-
-
 
 User:
 ------------------------------
