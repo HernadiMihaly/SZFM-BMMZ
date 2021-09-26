@@ -65,3 +65,10 @@ Tényleges viselkedés:
 Elvárt viselkedés: Egy adott kategórián belül az egér letartásával képesek vagyunk az adott feladatainkat átrendezni.
 
 Tényleges viselkedés:
+
+10\. Todo stílus ellenőrzése
+---------------------------------------------------
+
+Elvárt viselkedés: Elegáns, de egyben egyszerű/letisztult stílust várunk el: egyszerű szürke háttér, törtfehér táblákkal, fekete szegéllyel és betűtíszínnel, Times New Roman betűtípust alkalmazva.
+
+Tényleges viselkedés:
