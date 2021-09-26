@@ -35,7 +35,7 @@ Elvárt viselkedés: A kategória táblák alatti mentés és betöltés gombra 
 
 Tényleges viselkedés:
 
-5\. Todo kategórianév módosítása
+6\. Todo kategórianév módosítása
 --------------------------------------------
 
 Elvárt viselkedés: A különféle táblákban lévő módosítás gombra kattintva tudjuk módosítani a teendőinket.
