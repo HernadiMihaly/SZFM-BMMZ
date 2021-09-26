@@ -42,7 +42,7 @@ Elvárt viselkedés: A különféle táblákban lévő módosítás gombra katti
 
 Tényleges viselkedés:
 
-7\.Todo feladat adatainak módosítása
+7\. Todo feladat adatainak módosítása
 ---------------------------
 
 Elvárt viselkedés: Egy feladat kártyáján lévő módosítás gombra kattintva megjelenik egy dialógus doboz,
@@ -51,7 +51,7 @@ gombra kattintva a korábbi állapotban maradnak.
 
 Tényleges viselkedés:
 
-8\.Todo feladatok mozgatása kategóriák között
+8\. Todo feladatok mozgatása kategóriák között
 ---------------------------
 
 Elvárt viselkedés: A feladatok drag and drop módszerrel mozgathatóak a kategóriák között. Egy feladatot másik kategóriába
