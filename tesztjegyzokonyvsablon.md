@@ -59,3 +59,9 @@ húzva a feladat átkerül az új kategória oszlopába.
 
 Tényleges viselkedés:
 
+9\. Todo feladatok átrendezése egy kategórián belül
+---------------------------------------------------
+
+Elvárt viselkedés: Egy adott kategórián belül az egér letartásával képesek vagyunk az adott feladatainkat átrendezni.
+
+Tényleges viselkedés:
