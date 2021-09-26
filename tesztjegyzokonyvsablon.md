@@ -24,7 +24,7 @@ Tényleges viselkedés:
 4\. Todo feladat törlése
 --------------------------
 
-Elvárt viselkedés: A kategória táblákban a feladatok alján lévő Feladat törlése mezőre kattintva, egy dialógus doboz felnyílása után dönthetünk, hogy biztosan törölni akarjuk-e a kategóriát, ha az OK-ra nyomunk törlődnie kell, ha a Mégse-re, akkor marad az eredeti állapot.
+Elvárt viselkedés: A kategória táblákban a feladatok alján lévő Feladat törlése mezőre kattintva, egy dialógus doboz felnyílása után dönthetünk, hogy biztosan törölni akarjuk-e az adott feladatot, ha az OK-ra nyomunk törlődnie kell, ha a Mégse-re, akkor marad az eredeti állapot.
 
 Tényleges viselkedés:
 
