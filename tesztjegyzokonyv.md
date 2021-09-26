@@ -26,6 +26,13 @@ Böngésző verzió: Opera GX 92
 
 Operációs rendszer: Windows 10
 
+Tesztek Microsoft Edge böngészőn
+=======================
+
+Böngésző verzió: Microsoft Edge 93.0.961.52
+
+Operációs rendszer: Windows 10
+
 1\. Todo kategória hozzáadása
 -----------------------
 
@@ -39,6 +46,8 @@ Tényleges viselkedés: Az adott kategória hozzáadásra került az új kategó
 Tényleges viselkedés: A todo kategória sikeresen létrejött a megadott névvel. Tesztelve: Opera GX-ben Kiss Marcell által.
 
 Tényleges viselkedés: Az új kategória hozzáadásra került a megadott névvel. Tesztelve: Brave-ben Balázs Bence által.
+
+Tényleges viselkedés: A todo kategória kártya sikeresen létrejött megfelelő névvel, a megfelelő (Új kategória) gombot használva. Tesztelve: Microsoft Edge-ben Hernádi Mihály által.
 
 2\. Todo feladat hozzáadása listához
 --------------------------
@@ -54,6 +63,8 @@ Tényleges viselkedés: A Todo feladatot a rendszer a megadott adatokkal felvett
 
 Tényleges viselkedés: Az új kártya létrejött a megfelelő oszlopban a megfelelő adatokkal. Tesztelve: Brave-ben Balázs Bence által.
 
+Tényleges viselkedés: Az új Todo feladatot sikeresen hozzáadtam az adott kártyához a megfelelő (Új feladat) gomb használatával, minden adat kitölthető, hozzáadható, és megjeleníthető. Tesztelve: Microsoft Edge-ben Hernádi Mihály által.
+
 3\. Todo kategória törlése
 --------------------------
 
@@ -66,6 +77,8 @@ Tényleges viselkedés: Az adott kategória törlésre került a piros X-et hasz
 Tényleges viselkedés: Sikerült a kategóriákat törölnöm az X-re kattintva. Tesztelve: Opera GX-ben Kiss Marcell által.
 
 Tényleges viselkedés: Az X gombra való kattintással sikeresen törlődött a megfelelő kategória. Tesztelve: Brave-ben Balázs Bence által.
+
+Tényleges viselkedés: Sikeresen törölhetőek a kategória kártyák az X, majd a dialóguson az OK mező megnyomásával, a Mégse lenyomásánál maradt az eredeti állapot. Tesztelve: Microsoft Edge-ben Hernádi Mihály által.
 
 4\. Todo feladat törlése
 --------------------------
@@ -80,6 +93,8 @@ Tényleges viselkedés: Sikerült törölni a hozzáadott feladatokat a feladat 
 
 Tényleges viselkedés: A feladat sikeresen törlődött a ”Feladat törlése” gomb használatával. Tesztelve: Brave-ben Balázs Bence által.
 
+Tényleges viselkedés: Egy adott feladat sikeresen törölhető a Feladat törlése mezőre kattintva, majd a dialóguson az OK mező megnyomásával, a Mégse lenyomásánál marad az eredeti állapot. Tesztelve: Microsoft Edge-ben Hernádi Mihály által.
+
 5\. Todo listák és feladatok perzisztenciája
 --------------------------------------------
 
@@ -93,6 +108,8 @@ Tényleges viselkedés: A tesztelés során azt tapasztaltam, hogy a todo listá
 
 Tényleges viselkedés: Az állások mentése majd betöltése megtörténtek a megfelelő gombok használatával. Tesztelve: Brave-ben Balázs Bence által.
 
+Tényleges viselkedés: A mentés, majd a betöltés gomb lenyomásával a felvett listák és feladatok sikeresen megmaradnak az oldalon, és az oldal is lefrissül. Tesztelve: Microsoft Edge-ben Hernádi Mihály által.
+
 6\. Todo kategórianév módosítása
 --------------------------------------------
 
@@ -105,6 +122,8 @@ Tényleges viselkedés: Kijelölésük után a fejlécek módosításra kerülte
 Tényleges viselkedés: A fejlécre kattintva a teszt során, sikerült a kategórianevet módosítanom. Tesztelve: Opera GX-ben Kiss Marcell által.
 
 Tényleges viselkedés: A kategória nevét sikeresen módosításra került. Tesztelve: Brave-ben Balázs Bence által.
+
+Tényleges viselkedés: Minden megjelenített TODO tábla fejléce bármennyiszer átnevezhető. Tesztelve: Microsoft Edge-ben Hernádi Mihály által.
 
 7\. Todo feladat adatainak módosítása
 ---------------------------
@@ -121,6 +140,8 @@ Tényleges viselkedés: A módosítás gombra kattintva sikerült a feladat adat
 
 Tényleges viselkedés: Az adatok sikeresen módosításra kerültek és a mégse gomb használatával nem kerültek módosításra az adatok. Tesztelve: Brave-ben Balázs Bence által.
 
+Tényleges viselkedés: A Mod gombra kattintva sikeresen megjelenik a dialógus doboz, ahol valóban át lehet írni a feladatok adatait, majd menteni, vagy a Mégse gombbal hagyni az eredeti állapotot. Tesztelve: Microsoft Edge-ben Hernádi Mihály által.
+
 8\. Todo feladatok mozgatása kategóriák között
 ---------------------------
 
@@ -135,6 +156,8 @@ Tényleges viselkedés: A feladatokat sikerült az egérrel áthúznom egyik tá
 
 Tényleges viselkedés: A feladatok sikeresen mozgathatók a feladatok között. Tesztelve: Brave-ben Balázs Bence által.
 
+Tényleges viselkedés: A feladatok az egér használatával sikeresen áthelyezhetőek egyik táblából a másikba. Tesztelve: Microsoft Edge-ben Hernádi Mihály által.
+
 9\. Todo feladatok átrendezése egy kategórián belül
 ---------------------------------------------------
 
@@ -147,6 +170,8 @@ Tényleges viselkedés: A feladatok megfelelően mozgathatóak egy kategórián 
 Tényleges viselkedés: Sikerült a feladatok átrendezése, az egérgomb nyomvatartásával és a feladat egy másikra húzásával. Tesztelve: Opera GX-ben Kiss Marcell által.
 
 Tényleges viselkedés: Az egér használatával a feladatok sikeresen átrendezhetők a kategóriákon belül. Tesztelve: Brave-ben Balázs Bence által.
+
+Tényleges viselkedés: Egy adott feladatot (kategórián belül) az egér nyomvatartásával egy másik feladat elé, vagy mögé húzva áthelyezhetjük a tetszőleges helyre. Tesztelve: Microsoft Edge-ben Hernádi Mihály által.
 
 
 10\. Todo stílus ellenőrzése
@@ -161,3 +186,6 @@ Tényleges viselkedés: A megjelenítés megfelelően jelenik meg a felhasznál�
 Tényleges viselkedés: Az oldal megjelenése az elvártnak megfelelő. Tesztelve: Opera GX-ben Kiss Marcell által.
 
 Tényleges viselkedés:A weboldal kinézete az elvártaknak megfelel. Tesztelve: Brave-ben Balázs Bence által.
+
+Tényleges viselkedés: Az oldal az elvárásoknak teljesen megfelelően jelenik meg. Tesztelve: Microsoft Edge-ben Hernádi Mihály által.
+
