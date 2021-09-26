@@ -12,6 +12,13 @@ Böngésző verzió: Firefox 92.0.1
 
 Operációs rendszer: Windows 10
 
+Tesztek Brave böngészőn
+=======================
+
+Böngésző verzió: Brave 93.1.29.81
+
+Operációs rendszer: Windows 10
+
 Tesztek Opera GX böngészőn
 =======================
 
@@ -31,6 +38,8 @@ Tényleges viselkedés: Az adott kategória hozzáadásra került az új kategó
 
 Tényleges viselkedés: A todo kategória sikeresen létrejött a megadott névvel. Tesztelve: Opera GX-ben Kiss Marcell által.
 
+Tényleges viselkedés: Az új kategória hozzáadásra került a megadott névvel. Tesztelve: Brave-ben Balázs Bence által.
+
 2\. Todo feladat hozzáadása listához
 --------------------------
 
@@ -43,6 +52,8 @@ Tényleges viselkedés: Az adott feladat hozzáadásra került az új feladat go
 
 Tényleges viselkedés: A Todo feladatot a rendszer a megadott adatokkal felvette. Tesztelve: Opera GX-ben Kiss Marcell által.
 
+Tényleges viselkedés: Az új kártya létrejött a megfelelő oszlopban a megfelelő adatokkal. Tesztelve: Brave-ben Balázs Bence által.
+
 3\. Todo kategória törlése
 --------------------------
 
@@ -53,6 +64,8 @@ Tényleges viselkedés: A kategória törlése az OK gomb nyomása után megtör
 Tényleges viselkedés: Az adott kategória törlésre került a piros X-et használva. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
 
 Tényleges viselkedés: Sikerült a kategóriákat törölnöm az X-re kattintva. Tesztelve: Opera GX-ben Kiss Marcell által.
+
+Tényleges viselkedés: Az X gombra való kattintással sikeresen törlődött a megfelelő kategória. Tesztelve: Brave-ben Balázs Bence által.
 
 4\. Todo feladat törlése
 --------------------------
@@ -65,6 +78,8 @@ Tényleges viselkedés: Az adott feladat törlésre került a törlés mezőt ha
 
 Tényleges viselkedés: Sikerült törölni a hozzáadott feladatokat a feladat törlése gombra kattintva. Tesztelve: Opera GX-ben Kiss Marcell által.
 
+Tényleges viselkedés: A feladat sikeresen törlődött a ”Feladat törlése” gomb használatával. Tesztelve: Brave-ben Balázs Bence által.
+
 5\. Todo listák és feladatok perzisztenciája
 --------------------------------------------
 
@@ -76,6 +91,8 @@ Tényleges viselkedés: Az állások mentésre illetve betöltésre kerültek a 
 
 Tényleges viselkedés: A tesztelés során azt tapasztaltam, hogy a todo listák megmaradnak a mentés után, az újratöltést követően. Tesztelve: Opera GX-ben Kiss Marcell által.
 
+Tényleges viselkedés: Az állások mentése majd betöltése megtörténtek a megfelelő gombok használatával. Tesztelve: Brave-ben Balázs Bence által.
+
 6\. Todo kategórianév módosítása
 --------------------------------------------
 
@@ -86,6 +103,8 @@ Tényleges viselkedés: A kategória fejlécében a nevet átírva a módosítá
 Tényleges viselkedés: Kijelölésük után a fejlécek módosításra kerültek. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
 
 Tényleges viselkedés: A fejlécre kattintva a teszt során, sikerült a kategórianevet módosítanom. Tesztelve: Opera GX-ben Kiss Marcell által.
+
+Tényleges viselkedés: A kategória nevét sikeresen módosításra került. Tesztelve: Brave-ben Balázs Bence által.
 
 7\. Todo feladat adatainak módosítása
 ---------------------------
@@ -100,6 +119,8 @@ Tényleges viselkedés: Az adatok módosításra kerültek a módosítás gombot
 
 Tényleges viselkedés: A módosítás gombra kattintva sikerült a feladat adatainak megváltoztatása a mentés gombbal. A mégsem gomb megnyomásakor nem történik változás. Tesztelve: Opera GX-ben Kiss Marcell által.
 
+Tényleges viselkedés: Az adatok sikeresen módosításra kerültek és a mégse gomb használatával nem kerültek módosításra az adatok. Tesztelve: Brave-ben Balázs Bence által.
+
 8\. Todo feladatok mozgatása kategóriák között
 ---------------------------
 
@@ -112,6 +133,8 @@ Tényleges viselkedés: A feladatok megfelelően mozgathatóak kategóriák köz
 
 Tényleges viselkedés: A feladatokat sikerült az egérrel áthúznom egyik táblából a másikba. Tesztelve: Opera GX-ben Kiss Marcell által.
 
+Tényleges viselkedés: A feladatok sikeresen mozgathatók a feladatok között. Tesztelve: Brave-ben Balázs Bence által.
+
 9\. Todo feladatok átrendezése egy kategórián belül
 ---------------------------------------------------
 
@@ -122,6 +145,8 @@ Tényleges viselkedés: A feladat kártyáját egy másik feladatra húzva áthe
 Tényleges viselkedés: A feladatok megfelelően mozgathatóak egy kategórián belül. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
 
 Tényleges viselkedés: Sikerült a feladatok átrendezése, az egérgomb nyomvatartásával és a feladat egy másikra húzásával. Tesztelve: Opera GX-ben Kiss Marcell által.
+
+Tényleges viselkedés: Az egér használatával a feladatok sikeresen átrendezhetők a kategóriákon belül. Tesztelve: Brave-ben Balázs Bence által.
 
 
 10\. Todo stílus ellenőrzése
@@ -134,3 +159,5 @@ Tényleges viselkedés: Az oldal megjelenése megfelel a kikötéseknek. Tesztel
 Tényleges viselkedés: A megjelenítés megfelelően jelenik meg a felhasználó számára. Tesztelve: Mozilla Firefox-ban Szilágyi Mihály által.
 
 Tényleges viselkedés: Az oldal megjelenése az elvártnak megfelelő. Tesztelve: Opera GX-ben Kiss Marcell által.
+
+Tényleges viselkedés:A weboldal kinézete az elvártaknak megfelel. Tesztelve: Brave-ben Balázs Bence által.
