@@ -62,7 +62,8 @@ Tényleges viselkedés:
 9\. Todo feladatok átrendezése egy kategórián belül
 ---------------------------------------------------
 
-Elvárt viselkedés: Egy adott kategórián belül az egér letartásával képesek vagyunk az adott feladatainkat átrendezni.
+Elvárt viselkedés: Egy adott kategórián belül az egérgomb nyomva tartásával, drag and drop módszerrel képesek vagyunk az adott feladatainkat átrendezni.
+A feladatkártyát egy másikra húzva a cél feladat elé vagy mögé tudjuk helyezni.
 
 Tényleges viselkedés:
 
