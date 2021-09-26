@@ -27,3 +27,18 @@ Tényleges viselkedés:
 Elvárt viselkedés: A kategória táblákban a feladatok alján lévő Feladat törlése mezőre kattintva, egy dialógus doboz felnyílása után dönthetünk, hogy biztosan törölni akarjuk-e a kategóriát, ha az OK-ra nyomunk törlődnie kell, ha a Mégse-re, akkor marad az eredeti állapot.
 
 Tényleges viselkedés:
+
+5\. Todo listák és feladatok perzisztenciája
+--------------------------------------------
+
+Elvárt viselkedés: A kategória táblák alatti mentés és betöltés gombra kattintva, az adott állást el tudjuk menteni illetve elő tudjuk hívni a teendőinket a localStorage-ból.
+
+Tényleges viselkedés:
+
+5\. Todo kategórianév módosítása
+--------------------------------------------
+
+Elvárt viselkedés: A különféle táblákban lévő módosítás gombra kattintva tudjuk módosítani a teendőinket.
+
+Tényleges viselkedés:
+
