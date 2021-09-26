@@ -13,3 +13,17 @@ Elvárt viselkedés: Az egyes kategóriák oszlopának alján elhelyezkedő új 
 ahol megadhatjuk az új feladat adatait. A mentés gombra kattintva megjelenik az új feladat, a megfelelő oszlop alján.
 
 Tényleges viselkedés:
+
+3\. Todo kategória törlése
+--------------------------
+
+Elvárt viselkedés: A kategória táblák jobb felső sarkában lévő X mezőre kattintva, egy dialógus doboz felnyílása után dönthetünk, hogy biztosan törölni akarjuk-e a kategóriát, ha az OK-ra nyomunk törlődnie kell, ha a Mégse-re, akkor marad az eredeti állapot.
+
+Tényleges viselkedés:
+
+4\. Todo feladat törlése
+--------------------------
+
+Elvárt viselkedés: A kategória táblákban a feladatok alján lévő Feladat törlése mezőre kattintva, egy dialógus doboz felnyílása után dönthetünk, hogy biztosan törölni akarjuk-e a kategóriát, ha az OK-ra nyomunk törlődnie kell, ha a Mégse-re, akkor marad az eredeti állapot.
+
+Tényleges viselkedés:
